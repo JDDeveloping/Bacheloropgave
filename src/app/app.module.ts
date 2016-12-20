@@ -8,6 +8,7 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { PropertyBindingComponent } from './databinding/property-binding.component';
 import { EventBindingComponent } from './databinding/event-binding.component';
 import { RegistrerComponent } from './user/registrer/registrer.component';
+import { LoginComponent } from './user/login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RegistrerComponent } from './user/registrer/registrer.component';
     DatabindingComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    RegistrerComponent
+    RegistrerComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+.registration-text {
+    margin: auto;
+    width: 350px;
+    display: block;
+    float: left;
+    font-size: 24px;
+}
+.registration-buttons {
+    float: left;
+}
+.credentials {
+    width: 100%;
+    width: 100vw;
+}
