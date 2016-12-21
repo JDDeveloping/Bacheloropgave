@@ -1,0 +1,38 @@
+.topbanner{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    border: 1px black solid;
+}
+
+.newsbanner{
+    position: absolute;
+    margin-top: 7%;
+    color: lightblue;
+    height: 80%;
+    width: 20%;
+    background-color: red;
+}
+
+.middlepart{
+    position: absolute;
+    left: 22%;
+    top: 14.9%;
+    background-color: seagreen;
+    width: 60%;
+    height: 80%;
+    margin: 0px;
+    text-align: center;
+}
+
+.sportbanner{
+    position: absolute;
+    color: lightblue;
+    top: 0%;
+    left: 102%;
+    height: 100%;
+    width: 30%;
+    background-color: green;
+}

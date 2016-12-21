@@ -1,6 +1,9 @@
-.login-text{
-
+.login{
+    align-items: center;
 }
-.login-input{
-    
+.beskrivelse {
+    font-size: small;
+}
+.privatliv {
+    font-size: x-small;
 }
