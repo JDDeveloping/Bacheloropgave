@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'fa-login',
@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-_existing = false;
+  @Output() clicked = new EventEmitter<string>();
+  _existing = false;
 
+  login() {
+    alert("idiot");
+  }
 }

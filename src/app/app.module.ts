@@ -9,6 +9,7 @@ import { PropertyBindingComponent } from './databinding/property-binding.compone
 import { EventBindingComponent } from './databinding/event-binding.component';
 import { RegistrerComponent } from './user/registrer/registrer.component';
 import { LoginComponent } from './user/login/login.component';
+import { ForsideComponent } from './forside.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LoginComponent } from './user/login/login.component';
     PropertyBindingComponent,
     EventBindingComponent,
     RegistrerComponent,
-    LoginComponent
+    LoginComponent,
+    ForsideComponent
   ],
   imports: [
     BrowserModule,
